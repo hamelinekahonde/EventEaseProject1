@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/EventEaseProject/EventEaseProject.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EventEaseProject.f43h4ssz3z.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 15 May 2025 19:31:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EventEaseProject/EventEaseProject.f43h4ssz3z.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EventEaseProject.f43h4ssz3z.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f43h4ssz3z"},{"Name":"integrity","Value":"sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="},{"Name":"label","Value":"_content/EventEaseProject/EventEaseProject.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 15 May 2025 19:31:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

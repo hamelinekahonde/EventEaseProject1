@@ -1,0 +1,41 @@
+﻿@model IEnumerable<EventEaseProject.Models.Event>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Event Id</th>
+            <th>Event Name</th>
+            <th>Event Date</th>
+            <th>Description</th>
+            <th>Venue</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EventId</td>
+                <td>@item.EventName</td>
+                <td>@item.EventDate.ToString("yyyy-MM-dd h:mm tt")</td>
+                <td>@item.Description</td>
+                <td>@item.Venue?.VenueName</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.EventId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.EventId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.EventId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
