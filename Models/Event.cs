@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 
 namespace EventEaseProject.Models
 {
@@ -20,5 +21,16 @@ namespace EventEaseProject.Models
 
         public int? VenueId { get; set; }
         public Venue? Venue { get; set; }
+
+        public int? EventTypeId { get; set; }
+        public EventType? EventType { get; set; }
     }
+
+    public class EventType
+    {
+        public int EventTypeId { get; set; }
+        public string Name { get; set; } = string.Empty;
+    }
+
+
 }

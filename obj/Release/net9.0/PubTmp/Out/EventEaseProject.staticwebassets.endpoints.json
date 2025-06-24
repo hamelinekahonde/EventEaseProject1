@@ -1,0 +1,520 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "EventEaseProject.f43h4ssz3z.styles.css",
+      "AssetFile": "EventEaseProject.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001834862385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f43h4ssz3z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        },
+        {
+          "Name": "label",
+          "Value": "EventEaseProject.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.f43h4ssz3z.styles.css",
+      "AssetFile": "EventEaseProject.styles.css.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002457002457"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0QRle8zqDmSvrTjeXgd5/tRydyy578T2RbiDwkUWFgQ=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f43h4ssz3z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        },
+        {
+          "Name": "label",
+          "Value": "EventEaseProject.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.f43h4ssz3z.styles.css",
+      "AssetFile": "EventEaseProject.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f43h4ssz3z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        },
+        {
+          "Name": "label",
+          "Value": "EventEaseProject.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.f43h4ssz3z.styles.css.br",
+      "AssetFile": "EventEaseProject.styles.css.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0QRle8zqDmSvrTjeXgd5/tRydyy578T2RbiDwkUWFgQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f43h4ssz3z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0QRle8zqDmSvrTjeXgd5/tRydyy578T2RbiDwkUWFgQ="
+        },
+        {
+          "Name": "label",
+          "Value": "EventEaseProject.styles.css.br"
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.f43h4ssz3z.styles.css.gz",
+      "AssetFile": "EventEaseProject.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f43h4ssz3z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ="
+        },
+        {
+          "Name": "label",
+          "Value": "EventEaseProject.styles.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.styles.css",
+      "AssetFile": "EventEaseProject.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001834862385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.styles.css",
+      "AssetFile": "EventEaseProject.styles.css.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002457002457"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0QRle8zqDmSvrTjeXgd5/tRydyy578T2RbiDwkUWFgQ=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.styles.css",
+      "AssetFile": "EventEaseProject.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.styles.css.br",
+      "AssetFile": "EventEaseProject.styles.css.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0QRle8zqDmSvrTjeXgd5/tRydyy578T2RbiDwkUWFgQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0QRle8zqDmSvrTjeXgd5/tRydyy578T2RbiDwkUWFgQ="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.styles.css.gz",
+      "AssetFile": "EventEaseProject.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ="
+        }
+      ]
+    }
+  ]
+}

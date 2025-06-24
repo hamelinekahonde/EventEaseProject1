@@ -32,16 +32,6 @@
             </div>
 
             <!-- <!-- Show Existing Image if it Exists -->
-            @*        @if (!string.IsNullOrEmpty(Model.ImageUrl))
-            {
-
-            }
-            <div class="form-group">
-                        <label >Current Image</label><br />
-                        <img src="@Model.ImageUrl" alt="Venue Image" width+"158" height=158" style=object-for="Capacity" class="control-label"></label>
-             </div>
-
-             *@
 
             @if (!string.IsNullOrEmpty(Model.ImageUrl))
             {
@@ -50,7 +40,8 @@
                     <img src="@Model.ImageUrl" alt="Venue Image" width="158" height="158" class="img-thumbnail" />
                 </div>
             }
-            <!-- Allow uploading a nice image -->
+
+            <!-- Allow uploading a new image -->
             <div class="form-group">
                 <label asp-for="ImageFile" class="control-label"></label>
                 <input asp-for="ImageFile" type="file" class="form-control" />

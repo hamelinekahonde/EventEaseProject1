@@ -1,0 +1,694 @@
+{
+  "Version": 1,
+  "Hash": "H8eIln5tm8fQaIC33NMmeHmaQeD4S+k56RA0yjrLGvY=",
+  "Source": "EventEaseProject",
+  "BasePath": "_content/EventEaseProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\1utdqtm9qe-f43h4ssz3z.gz",
+      "SourceId": "EventEaseProject",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/EventEaseProject",
+      "RelativePath": "EventEaseProject#[.{fingerprint=f43h4ssz3z}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\bundle\\EventEaseProject.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "evukwblg77",
+      "Integrity": "SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\bundle\\EventEaseProject.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\9ttxknjy26-f43h4ssz3z.gz",
+      "SourceId": "EventEaseProject",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/EventEaseProject",
+      "RelativePath": "EventEaseProject#[.{fingerprint=f43h4ssz3z}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\EventEaseProject.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "evukwblg77",
+      "Integrity": "SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\EventEaseProject.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\bundle\\EventEaseProject.styles.css",
+      "SourceId": "EventEaseProject",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/EventEaseProject",
+      "RelativePath": "EventEaseProject#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "f43h4ssz3z",
+      "Integrity": "Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\bundle\\EventEaseProject.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\EventEaseProject.bundle.scp.css",
+      "SourceId": "EventEaseProject",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/EventEaseProject",
+      "RelativePath": "EventEaseProject#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "f43h4ssz3z",
+      "Integrity": "Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\EventEaseProject.bundle.scp.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "EventEaseProject.bundle.scp.css",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\9ttxknjy26-f43h4ssz3z.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001834862385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.bundle.scp.css",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\EventEaseProject.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\9ttxknjy26-f43h4ssz3z.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.f43h4ssz3z.bundle.scp.css",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\9ttxknjy26-f43h4ssz3z.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001834862385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f43h4ssz3z"
+        },
+        {
+          "Name": "label",
+          "Value": "EventEaseProject.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.f43h4ssz3z.bundle.scp.css",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\EventEaseProject.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f43h4ssz3z"
+        },
+        {
+          "Name": "label",
+          "Value": "EventEaseProject.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.f43h4ssz3z.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\9ttxknjy26-f43h4ssz3z.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f43h4ssz3z"
+        },
+        {
+          "Name": "label",
+          "Value": "EventEaseProject.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.f43h4ssz3z.styles.css",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\1utdqtm9qe-f43h4ssz3z.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001834862385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f43h4ssz3z"
+        },
+        {
+          "Name": "label",
+          "Value": "EventEaseProject.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.f43h4ssz3z.styles.css",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\bundle\\EventEaseProject.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f43h4ssz3z"
+        },
+        {
+          "Name": "label",
+          "Value": "EventEaseProject.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.f43h4ssz3z.styles.css.gz",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\1utdqtm9qe-f43h4ssz3z.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f43h4ssz3z"
+        },
+        {
+          "Name": "label",
+          "Value": "EventEaseProject.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.styles.css",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\1utdqtm9qe-f43h4ssz3z.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001834862385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.styles.css",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\scopedcss\\bundle\\EventEaseProject.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dx5UKzPi8T0amtmlcejv5zVBV3aSAqT/R6DvQJETj/k="
+        }
+      ]
+    },
+    {
+      "Route": "EventEaseProject.styles.css.gz",
+      "AssetFile": "C:\\Users\\lab_services_student\\Desktop\\NewCloudApp\\EventEaseProject\\obj\\Release\\net9.0\\compressed\\1utdqtm9qe-f43h4ssz3z.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 20:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SlVrSxRHynttUQO5nHxuR1GkwZM+GTqXP7z3nK5ljdQ="
+        }
+      ]
+    }
+  ]
+}

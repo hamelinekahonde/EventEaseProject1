@@ -14,16 +14,28 @@ namespace EventEaseProject.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
-        {
-            var events = await _context.Event.Include(e => e.Venue).ToListAsync();
-            return View(events);
-        }
 
-        public IActionResult Create()
+        public async Task<IActionResult> Index(string searchType, int? venueId, DateTime? startDate, DateTime? endDate)
         {
-            ViewBag.VenueId = new SelectList(_context.Venue, "VenueId", "VenueName");
-            return View();
+            var events = _context.Event
+                .Include(e => e.Venue)
+                .Include(e => e.EventType)
+                .AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchType))
+                events = events.Where(e => e.EventType != null && e.EventType.Name == searchType);
+
+            if (venueId.HasValue)
+                events = events.Where(e => e.VenueId == venueId);
+
+            if (startDate.HasValue && endDate.HasValue)
+                events = events.Where(e => e.EventDate >= startDate && e.EventDate <= endDate);
+
+
+            ViewData["EventTypes"] = _context.EventType.ToList();
+            ViewData["Venues"] = _context.Venue.ToList();
+
+            return View(await events.ToListAsync());
         }
 
 
@@ -39,7 +51,10 @@ namespace EventEaseProject.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            ViewBag.VenueId = new SelectList(_context.Venue, "VenueId", "VenueName", @event.VenueId);
+            ViewData["Venues"] = _context.Venue.ToList();
+
+            ViewData["EventTypes"] = _context.EventType.ToList();
+
             return View(@event);
         }
 
@@ -53,7 +68,10 @@ namespace EventEaseProject.Controllers
             if (@event == null)
                 return NotFound();
 
-            ViewBag.VenueId = new SelectList(_context.Venue, "VenueId", "VenueName", @event.VenueId);
+            ViewData["Venues"] = _context.Venue.ToList();
+
+            ViewData["EventTypes"] = _context.EventType.ToList();
+
             return View(@event);
         }
 
@@ -83,7 +101,7 @@ namespace EventEaseProject.Controllers
                 }
             }
             // Repopulate dropdown if model state is invalid
-            ViewBag.VenueId = new SelectList(_context.Venue, "VenueId", "VenueName", @event.VenueId);
+            ViewData["EventTypes"] = _context.EventType.ToList();
             return View(@event);
         }
 

@@ -1,0 +1,95 @@
+USE master;
+IF EXISTS (SELECT * FROM sys.databases WHERE name = 'DBEventEasesummative')
+DROP DATABASE DBEventEase1;
+
+CREATE DATABASE DBEventEasesummative;
+USE DBEventEasesummative;
+
+-- Drop tables if they already exist (drop in dependency order)
+DROP TABLE IF EXISTS Booking;
+DROP TABLE IF EXISTS Event;
+DROP TABLE IF EXISTS Venue;
+
+-- Venue Table
+CREATE TABLE Venue (
+    VenueId INT IDENTITY(1,1) PRIMARY KEY,
+    VenueName NVARCHAR(100) NOT NULL,
+    Location NVARCHAR(255) NOT NULL,
+    Capacity INT NOT NULL CHECK (Capacity > 0),
+    ImageUrl NVARCHAR(500) NULL
+);
+
+
+-- Create EventType Table
+CREATE TABLE EventType (
+    EventTypeId INT IDENTITY(1,1) PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL
+);
+
+
+-- Event Table
+CREATE TABLE Event (
+    EventId INT IDENTITY(1,1) PRIMARY KEY,
+    EventName NVARCHAR(255) NOT NULL,
+    EventDate DATETIME NOT NULL,
+    Description NVARCHAR(1000) NULL,
+    VenueId INT NULL, -- Venue may be assigned initially
+	EventTypeId INT NULL,
+    FOREIGN KEY (VenueId) REFERENCES Venue(VenueId) ON DELETE SET NULL,
+	FOREIGN KEY (EventTypeId) REFERENCES EventType(EventTypeId) ON DELETE SET NULL
+);
+
+-- Booking Table
+CREATE TABLE Booking (
+    BookingId INT IDENTITY(1,1) PRIMARY KEY,
+    EventId INT NOT NULL,
+    VenueId INT NOT NULL,
+    BookingDate DATETIME DEFAULT GETDATE(),
+    FOREIGN KEY (EventId) REFERENCES Event(EventId) ON DELETE CASCADE,
+    FOREIGN KEY (VenueId) REFERENCES Venue(VenueId) ON DELETE CASCADE
+);
+
+-- Insert data into Venue table
+INSERT INTO Venue (VenueName, Location, Capacity, ImageUrl)
+VALUES
+('Grand Hall', '123 Main Street', 500, 'https://blobstoragepart3.blob.core.windows.net/hallgrand/hallgrand.jpg'),
+('Lakeside Pavilion', '456 Lakeshore Road', 200, 'https://th.bing.com/th/id/OIP.SKFBcVZvOZdrqEgGKSazvQHaFj?r=0&rs=1&pid=ImgDetMain&cb=idpwebpc2'),
+('Riverside Conference Center', '789 River Road', 150, 'https://blobstoragepart3.blob.core.windows.net/riverside/riverside.jpg'),
+('Skyline Terrace', '101 Skyline Avenue', 300, 'https://blobstoragepart3.blob.core.windows.net/skylineterrace/skyter.jpg'),
+('The Green Garden', '202 Garden Street', 100, 'https://blobstoragepart3.blob.core.windows.net/greengarden/greengarden.jpg');
+
+
+INSERT INTO EventType (Name)
+VALUES 
+('Conference'),
+('Wedding'),
+('Naming'),
+('Birthday'),
+('Concert');
+
+-- Insert data into Event table
+INSERT INTO Event (EventName, EventDate, Description, VenueId, EventTypeId)
+VALUES
+('Tech Conference 2025', '2025-05-15 09:00:00', 'Annual tech conference.', 1 , '1'),
+('Startup Meetup', '2025-06-10 18:00:00', 'Networking event for startups.', 2, '2'),
+('Music Night', '2025-07-20 19:00:00', 'An evening of live performances.', 3, '3'),
+('Leadership Summit', '2025-08-12 10:00:00', 'Summit for business leaders.', 4, '4'),
+('Garden Festival', '2025-09-25 13:00:00', 'Outdoor festival in the gardens.', 5, '5');
+
+-- Insert data into Booking table
+INSERT INTO Booking (EventId, VenueId, BookingDate)
+VALUES
+(1, 1, '2025-05-01 10:00:00'),
+(2, 2, '2025-06-01 12:00:00'),
+(3, 3, '2025-07-01 14:30:00'),
+(4, 4, '2025-08-05 11:00:00'),
+(5, 5, '2025-09-10 09:00:00');
+
+-- Final Data Check
+SELECT * FROM Venue;
+SELECT * FROM Event;
+SELECT * FROM Booking;
+SELECT * FROM EventType;
+
+
+

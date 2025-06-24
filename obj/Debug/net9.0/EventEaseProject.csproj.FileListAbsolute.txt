@@ -619,3 +619,4 @@ C:\Users\lab_services_student\Desktop\NewCloudApp\EventEaseProject\obj\Debug\net
 C:\Users\lab_services_student\Desktop\NewCloudApp\EventEaseProject\bin\Debug\net9.0\Azure.Storage.Blobs.dll
 C:\Users\lab_services_student\Desktop\NewCloudApp\EventEaseProject\bin\Debug\net9.0\Azure.Storage.Common.dll
 C:\Users\lab_services_student\Desktop\NewCloudApp\EventEaseProject\bin\Debug\net9.0\System.IO.Hashing.dll
+C:\Users\lab_services_student\Desktop\NewCloudApp\EventEaseProject\obj\Debug\net9.0\EventEaseProject.sourcelink.json

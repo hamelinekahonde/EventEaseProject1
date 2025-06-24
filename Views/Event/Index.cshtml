@@ -1,7 +1,52 @@
-﻿@model IEnumerable<EventEaseProject.Models.Event>
+﻿
+<form method="get" class="mb-4">
+    <div class="row">
+        <div class="col-md-3">
+            <label>Event Type</label>
+            <select name="searchType" class="form-control">
+                <option value="">-- All Types --</option>
+                @foreach (var type in (List<EventType>)ViewData["EventTypes"])
+                {
+                    <option value="@type.Name">@type.Name</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label>Venue</label>
+            <select name="venueId" class="form-control">
+                <option value="">-- All Venues --</option>
+                @foreach (var venue in (List<Venue>)ViewData["Venues"])
+                {
+                    <option value="@venue.VenueId">@venue.VenueName</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label>Start Date</label>
+            <input type="date" name="startDate" class="form-control" />
+        </div>
+        <div class="col-md-3">
+            <label>End Date</label>
+            <input type="date" name="endDate" class="form-control" />
+        </div>
+    </div>
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Filter</button>
+        <a href="/Event/Index" class="btn btn-secondary ml-2">Clear</a>
+    </div>
+</form>
+@model IEnumerable<EventEaseProject.Models.Event>
 
 @{
     ViewData["Title"] = "Index";
+    // Filter events based on the selected event type
+    var filteredEvents = Model;
+    var selectedEventType = Context.Request.Query["searchType"].ToString();
+
+    if (!string.IsNullOrEmpty(selectedEventType))
+    {
+        filteredEvents = Model.Where(e => e.EventType?.Name == selectedEventType);
+    }
 }
 
 <h2>Index</h2>
@@ -39,3 +84,4 @@
         }
     </tbody>
 </table>
+
